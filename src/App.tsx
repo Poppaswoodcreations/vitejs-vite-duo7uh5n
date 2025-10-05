@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from './supabase';
-import { Session } from '@supabase/supabase-js';
+import type { Session } from '@supabase/supabase-js';
 import { Eye, EyeOff, Calendar, Clock, Trash2 } from 'lucide-react';
 
 interface JournalEntry {
